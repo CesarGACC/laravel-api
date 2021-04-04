@@ -2,9 +2,9 @@
 
 ## Setup
 
-setup database, php and composer
-edit .env
+# setup database, php and composer
+# edit .env
 
-composer install
-php artisan migrate
-php artisan serve
+# composer install
+# php artisan migrate
+# php artisan serve
