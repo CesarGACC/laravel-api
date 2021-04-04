@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\api\ProductController;
+use App\Http\Controllers\api\HistoryController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -13,3 +14,4 @@ use App\Http\Controllers\api\ProductController;
 */
 
 Route::apiResource('products',ProductController::class);
+Route::apiResource('history',HistoryController::class);

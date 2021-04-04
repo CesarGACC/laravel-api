@@ -2,10 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\product;
+use App\Models\Product;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class productFactory extends Factory
+class ProductFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
@@ -23,10 +23,9 @@ class productFactory extends Factory
     {
         return [
             //
-            'name' => $this->faker->name,
+            'name' => Str::random(10),
             'price' => rand (1,100),
             'quantity' => rand (1,100),
-
         ];
     }
 }
